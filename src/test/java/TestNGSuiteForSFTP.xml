@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_Client_for_SFTP_jar_1.0-SNAPSHOT">
+
+    <test name="FirstActionTest">
+        <!-- конкретные классы с тестами -->
+        <classes>
+            <class name="com.mycompany.sftpclienttest.Client_for_SFTPNG1Test"/> 
+            <class name="com.mycompany.sftpclienttest.Client_for_SFTPNG2Test"/>
+            <class name="com.mycompany.sftpclienttest.Client_for_SFTPNG3Test"/> 
+
+        </classes>
+    </test>
+
+</suite>
