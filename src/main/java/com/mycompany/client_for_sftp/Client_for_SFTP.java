@@ -66,7 +66,7 @@ public class Client_for_SFTP {
                 ssh.addHostKeyVerifier((h, p, k) -> true);
                 
                 // тайм-ауты
-                int connectionTimeout = 5000; // Тайм-аут подключения (в миллисекундах)
+                int connectionTimeout = 5001; // Тайм-аут подключения (в миллисекундах)
                 int authenticationTimeout = 5000; // Тайм-аут аутентификации (в миллисекундах)
 
                 // Подключение к серверу 

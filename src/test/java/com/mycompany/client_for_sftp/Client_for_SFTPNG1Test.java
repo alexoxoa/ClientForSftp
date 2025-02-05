@@ -26,7 +26,7 @@ public class Client_for_SFTPNG1Test {
         try (SSHClient ssh = new SSHClient()) {
             ssh.addHostKeyVerifier((h, p, k) -> true); 
             ssh.connect("HOST", 22); // указать хост и порт
-            ssh.authPassword("user", "password"); // указать имя пользователя и пароль 
+            ssh.authPassword("user_", "password"); // указать имя пользователя и пароль 
 
             try (SFTPClient sftp = ssh.newSFTPClient()) {
                 // ловим исключение

@@ -34,7 +34,7 @@ public class Client_for_SFTPNG2Test {
     public void testGetDomainIpListSortedByDomain() {
         String sftpHost = "HOST"; // адрес SFTP-сервера
         int sftpPort = 22; // указать порт SFTP
-        String sftpUser = "user"; // указать логин
+        String sftpUser = "user_"; // указать логин
         String sftpPassword = "password"; // указать пароль
         String remoteFilePath = "PATH"; // путь к тестовому файлу
 
